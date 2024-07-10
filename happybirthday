@@ -39,7 +39,7 @@
             display: block;
             margin-bottom: 8px;
             font-size: 20px;
-            color: #fff;
+            color: #000;
             text-transform: uppercase;
             font-weight: bold;
         }
@@ -51,10 +51,10 @@
 </head>
 <body>
     <div class='box-love'>
-        <span>Bạn có yêu mình không</span>
+        <span>Happy Birthday Chị Ngân, chị Ngân đãi đi ăn nha</span>
         <div class='box'>
-            <button id="love">Yêu</button>
-            <button id="no-love">Không Yêu</button>
+            <button id="love">Ok em , đi luôn</button>
+            <button id="no-love">Để chị xem lại đã</button>
         </div>
     </div>
 
@@ -65,7 +65,7 @@
         love.addEventListener("click", myFunction);
 
         function myFunction() {
-            alert('Mình Biết Mà ahihi');
+            alert('Em biết mà, Em và anh chị cảm ơn chị Ngân nhiều hehehehe');
         }
 
         no_love.addEventListener("mouseover", loveFunction);
@@ -82,3 +82,5 @@
     </script>
 </body>
 </html>
+
+
